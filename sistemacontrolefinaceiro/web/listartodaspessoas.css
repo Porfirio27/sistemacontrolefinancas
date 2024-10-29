@@ -1,0 +1,92 @@
+body {
+    width: 90%;
+    height: 500px;
+    background: linear-gradient(135deg, #1a1a1a, #000); /* Fundo com gradiente suave */
+    font-family: 'Arial', sans-serif; /* Fonte mais moderna */
+    border: 0px;
+    padding: 10px;
+}
+
+h1 {
+    color: #00bfff; /* Azul claro para o título */
+    text-align: center;
+    margin-right: 0px; /* Aumenta a separação entre o título e o formulário */
+    font-size: 2.5em;
+    letter-spacing: 2px; /* Espaçamento entre as letras */
+}
+
+table{
+    background-color: #2c2c2c; /* Fundo mais escuro e elegante para o formulário */
+    padding: 10px;
+    width: 90%;
+    height: 500px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Sombra mais pronunciada */
+    text-align: center; /* Alinhamento central dos elementos */
+    color: white;
+}
+
+*{
+    margin: 0 auto
+}
+
+th {
+    background-color:black;
+    color: white;
+    text-align: left;
+    padding: 5px 10px
+}
+
+td {
+    border: solid #ededed;
+    padding: 5px 10px
+}
+
+input[type="text"],
+input[type="tel"] {
+    width: 105%;
+    margin-bottom: 20px;
+    border: 2px solid #444;
+    border-radius: 5px;
+    background-color: #444; /* Fundo cinza-escuro dos inputs */
+    color: #fff;
+    font-size: 1em;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus {
+    border-color: #00bfff; /* Destaque azul nos campos ao focar */
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.5); /* Efeito de brilho */
+    outline: none;
+}
+
+input[type="submit"],
+input[type="button"] {
+
+    transition: background-color 0.3s ease-in-out;
+    display: inline-block; /* Faz com que fiquem lado a lado */
+}
+
+input[type="submit"] {
+    background-color: #5cb85c; /* Botão verde */
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c; /* Verde mais escuro no hover */
+}
+
+input[type="button"] {
+    background-color: #5bc0de; /* Azul para o botão de voltar */
+    color: white;
+}
+
+input[type="button"]:hover {
+    background-color: #46b8da; /* Azul mais escuro no hover */
+}
+
+input:focus {
+    outline: none;
+}
+
+    
